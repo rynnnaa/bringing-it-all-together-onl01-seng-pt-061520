@@ -60,7 +60,7 @@ class Dog
       dog_data = dog[0]
       self.new_from_db(dog_data)
     else
-      self.create
+      dog = self.create
     end
   end
   
