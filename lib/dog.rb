@@ -64,6 +64,6 @@ class Dog
           self.create(attributes)
         end
     end
-  
-  
+  def self.find_by_id
+  end
 end
